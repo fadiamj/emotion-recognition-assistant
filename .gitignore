@@ -1,0 +1,26 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Large trained models and serialized objects
+*.h5
+!pen2_model.h5
+!sentiment_analysis2.h5
+*.hdf5
+*.pt
+*.pth
+*.pkl
+!tokenizer.pkl
+
+# Dataset archives and audio files
+*.zip
+*.wav
